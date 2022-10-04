@@ -1,0 +1,141 @@
+#titulo{
+    margin: 40px;
+    background-color: green;
+    text-align: center;
+}
+.quadrado{
+    width: 300px;
+    height:250px;
+    margin: 17px;
+    border: solid 2px black;
+}
+.quadradoFoto{
+    width: 300px;
+    height:250px;
+    margin: 65px;
+
+}
+.quadradoFot{
+    width: 300px;
+    height:250px;
+    margin: 170px;
+    border: solid 2px black;
+}
+#organizar-quadrado{
+    display:flex;
+}
+#organizar-foto{
+    display:inline-block;
+}
+#organizar{
+    float: right;
+    right: 500px;
+    position: relative;
+    display:inline-block;
+}
+#organizar-mapa{
+    position: relative;
+    display:inline-block;
+    right: 50px;
+}
+#organizar-contato{
+    float: right;
+    position: relative;
+    display:inline-block;
+    right: 50px;
+    color: white;
+    top: 50px;
+}
+#fundo-corpo{
+    background: url(https://images.vexels.com/media/users/3/70674/raw/ccf64839ec7367cbfb9ec497a1cd7d15-fundo-verde-fresco-da-natureza-com-florescer.jpg);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+img{
+    width: 300px;
+    height:250px;
+}
+button {
+background: MediumSeaGreen;
+color: white;
+border-radius: 15px;
+width: 290px;
+height: 30px;
+margin: 6px;
+}
+#rodape{
+    margin: 50px;
+    background-color: DarkGreen;
+    text-align: center;
+    border: 1px solid black;
+}
+.menu{
+    list-style: none;
+    top:0px;
+    background: green;
+    position: fixed;
+}
+#menu{
+    background: mediumseaGreen;
+}
+
+.menu li{
+    position: relative;
+    background: Green;
+    float:left;
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.menu li a:hover{
+    background: mediumseagreen;
+    color: white;
+    -moz-box-shadow: 0 3px 10px 0 black;
+    -webkit-box-shadow: 0 3px 10px 0 black;
+    text-shadow: 0px 0px 5px black;
+}
+
+.menu li ul{
+    position: relative;
+    top: 25px;
+    left: 0;
+    display: none;
+}
+
+.menu li:hover, menu li.ove ul{
+    display: block;
+}
+
+.menu li ul li{
+    display: block;
+    border: 15px solid red;
+    width: 150px;
+}
+
+#section{
+    background: MediumSeaGreen;
+    color: white;
+    border-radius: 15px;
+    width: 1340px;
+    height: 100px;
+    text-align: center;
+}
+
+#QuemSomos{
+    background: LightGreen;
+    color: white;
+    color: black;
+    border-radius: 15px;
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    left: 170px;
+    border: 1px solid green;
+    text-align:center;
+}
